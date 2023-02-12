@@ -4,3 +4,13 @@
   top: 20px;
   transform: translate(-50%, -0%);
 }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.theButton {
+  height: 32px;
+  margin: 10px;
+}
