@@ -19,9 +19,6 @@ app.use(todos);
 mongoose.connection.on("connected", () => {
   console.log("Connected to mongo instance");
 });
-mongoose.connection.on("error", (err) => {
-  console.error("error connecting to mongo", err);
-});
 
 app.listen(5001, () => {
   console.log(`Listening on port ${PORT}`);
